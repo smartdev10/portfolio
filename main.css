@@ -54516,19 +54516,15 @@ video {
   display: block;
 }
 
-.navbar.scrolled {
-  background-color: #718096;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  color: #fff;
-  -webkit-transition: background 500ms ;
-  transition: background 500ms ;
+.menu-item:hover {
+  background: #1e90ff;
 }
 
-.position-center {
-  top : 40%;
-  right:50%;
-  -webkit-transform: translate(50%);
-          transform: translate(50%);
+.navbar.scrolled {
+  background-color: #f1f2f6;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  -webkit-transition: background 500ms ;
+  transition: background 500ms ;
 }
 
 .transition-bg {
