@@ -54505,6 +54505,11 @@ video {
   }
 }
 
+.skills{
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
 .menu-item {
   font-weight: 600;
   padding-left: 1.5rem;
@@ -54514,6 +54519,7 @@ video {
   height: 100%;
   width: 8rem;
   display: block;
+  text-align: center;
 }
 
 .menu-item:hover {
@@ -54523,8 +54529,9 @@ video {
 .navbar.scrolled {
   background-color: #f1f2f6;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  -webkit-transition: background 500ms ;
-  transition: background 500ms ;
+  height: 4rem;
+  -webkit-transition: all 500ms ;
+  transition: all 500ms ;
 }
 
 .transition-bg {
