@@ -54528,7 +54528,7 @@ video {
 }
 
 .transition-bg {
-  -webkit-transition: background-color .3s linear;
-  transition: background-color .3s linear;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
 }
 
